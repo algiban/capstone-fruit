@@ -1,5 +1,6 @@
 import React from "react";
-import "@lottiefiles/lottie-player"; 
+import "@lottiefiles/lottie-player";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -19,9 +20,9 @@ const Home = () => {
           Deteksi buah secara otomatis dari gambar Anda. Cepat, akurat, dan
           mudah digunakan!
         </p>
-        <a href="/scan" className="home-button">
+        <Link to="/scan" className="home-button">
           Mulai Deteksi Sekarang
-        </a>
+        </Link>
       </div>
     </div>
   );
