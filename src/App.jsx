@@ -7,7 +7,7 @@ import About from "./components/about.jsx";
 import Book from "./components/book.jsx";
 import Scan from "./components/scan.jsx";
 
-import "./App.css";
+import "./app.css";
 
 function App() {
   return (
